@@ -6,14 +6,12 @@ import Home from "./page/Home";
 // import Signup from './components/Header/Signupbutton/index';
 import SignIn from "./components/forms/SignIn/index";
 import Signup from "./components/forms/Signup/index";
-import { cx } from "classnames";
 
 const App = (props) => {
   return (
     <>
       <BrowserRouter>
         <Header />
-        <p>test</p>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} />
@@ -24,5 +22,4 @@ const App = (props) => {
   );
 };
 
-// const SignUp = () => <selection>SignUp</selection>;
 export default App;

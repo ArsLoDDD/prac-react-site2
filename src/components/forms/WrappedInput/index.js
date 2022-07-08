@@ -10,7 +10,7 @@ const WrappedInput = (props) => {
       <Field name={name}>
         {({ field, meta }) => {
           const inputStyles = cx(styles.input, {
-            [styles.valid]: !meta.error,
+            [styles.valid]: !meta.error && meta.touched,
             [styles.invalid]: meta.error && meta.touched,
           });
           return <input {...field} {...rest} className={inputStyles} />;

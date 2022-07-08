@@ -1,0 +1,24 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    min-height: 100px;
+    margin: auto;
+    padding-top: 11em;
+  }
+  .submit {
+    margin: 1em 0;
+    padding: 9px;
+    border: none;
+    background-color: #28D2D1;
+    color: white;
+  }
+  .hedingSignIn{
+    padding: 1em 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+  }
+  

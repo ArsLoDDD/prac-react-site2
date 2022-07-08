@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-count: 2;
+  max-width: 400px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.submit {
+  width: 100%;
+  height: 50px;
+margin: 2em 0;
+  border: none;
+  border-radius: 2px;
+  background-color: #28d2d0;
+  color: white;
+}
+.hedingSignUp {
+  text-align: center;
+  color: white;
+}
+h2 {
+  padding-top: 1em;
+  margin-bottom: 0;
+  font-size: 2.1em;
+}
+p {
+  margin: 0 auto;
+  padding-bottom: 2em;
+  max-width: 350px;
+}
+.join {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+}
+.joinItems {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5em;
+  border: 1px solid white;
+  flex-wrap: wrap;
+}
+.joinRadio{
+    position: relative;
+    bottom: 1em
+}
+h3 {
+  margin: 0.5em 0 0 0;
+  font-weight: 300;
+}
+span {
+  font-size: 10px;
+}
+.joinInerItems {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 576px) {
+  .form{
+    flex-direction: column;
+  }
+}

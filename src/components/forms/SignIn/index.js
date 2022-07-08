@@ -19,8 +19,8 @@ const SignIn = (props) => {
         return (
           <Form className={styles.form}>
             <h2 className={styles.hedingSignIn}>login to your account</h2>
-            <WrappedInput style={{ marginTop: "0.5em" }} name="email" placeholder="Email Address" />
-            <WrappedInput style={{ marginTop: "0.5em" }} name="password" placeholder="Password" />
+            <WrappedInput style={{ marginTop: "0.3em" }} name="email" placeholder="Email Address" />
+            <WrappedInput style={{ marginTop: "0.3em" }} name="password" placeholder="Password" />
             <input className={styles.submit} type="submit" value="LOGIN" />
           </Form>
         );

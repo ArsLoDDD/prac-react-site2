@@ -19,8 +19,8 @@ const SignInForm = (props) => {
         return (
           <Form className={styles.form}>
             <h2 className={styles.hedingSignIn}>login to your account</h2>
-            <WrappedInput className={styles.marginTop}  name="email" placeholder="Email Address" />
-            <WrappedInput className={styles.marginTop} name="password" placeholder="Password" />
+            <WrappedInput name="email" placeholder="Email Address" />
+            <WrappedInput type='password' name="password" placeholder="Password" />
             <input className={styles.submit} type="submit" value="LOGIN" />
           </Form>
         );

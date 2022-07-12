@@ -40,7 +40,8 @@ const SignUpForm = (props) => {
                 name="cpassword"
                 placeholder="Password Confirmation"
               />
-             <SignUpFormRadioText/>
+             <SignUpFormRadioText headingName={'Buyer'} spanTextJoin={'I am looking for a Name, Logo or Tagline for my business, brand or product'} />
+             <SignUpFormRadioText headingName={'Creative or Marketplace Seller'} spanTextJoin={'I plan to submit name ideas, Logo designs or sell names in Domain Marketplace.'} />
               <input
                 className={styles.submit}
                 type="submit"
